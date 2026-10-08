@@ -241,6 +241,13 @@ export const otherProjects: MiniProject[] = [
     stack: ['React', 'TypeScript', 'Socket.IO', 'Express.js'],
     links: { github: 'https://github.com/HemanthMarisetti0/web_socket_chat_app' },
   },
+  {
+    id: 'portfolio',
+    name: 'Portfolio',
+    description: 'This site: an animated single-page portfolio with light and dark themes, live GitHub activity and a contact form.',
+    stack: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+    links: { github: 'https://github.com/HemanthMarisetti0/my_portfolio' },
+  },
 ]
 
 export const featuredProject = projects.find((p) => p.featured) ?? projects[0]
